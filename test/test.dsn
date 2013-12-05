@@ -1,0 +1,246 @@
+(pcb /home/colin/Dropbox/kicad/test.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-11-06 BZR 4440)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  119380 -78740  119380 -138430  161290 -138430  161290 -78740
+            119380 -78740)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component discret:LEDV
+      (place D1 155575 -106680 front 90 (PN LED))
+    )
+    (component "connect:SIL-3"
+      (place J1 138430 -85090 front 0 (PN MYCONN3))
+    )
+    (component pin_array:PIN_ARRAY_4x1
+      (place P1 133350 -111760 front 0 (PN CONN_1))
+      (place P2 133350 -119380 front 0 (PN CONN_2))
+      (place P3 133350 -127000 front 0 (PN CONN_3))
+      (place P4 133350 -134620 front 0 (PN CONN_4))
+    )
+    (component discret:R1
+      (place R1 154940 -90170 front 90 (PN 100))
+      (place R2 125730 -91440 front 270 (PN 1k))
+    )
+    (component "dip_sockets:DIP-8__300"
+      (place U1 140970 -99060 front 270 (PN PIC12C508A))
+      (place Ua1 147955 -121920 front 270 (PN 7400))
+    )
+  )
+  (library
+    (image discret:LEDV
+      (outline (path signal 304.8  2540 0  2415.68 -784.903  2054.9 -1492.97  1492.97 -2054.9
+            784.903 -2415.68  0 -2540  -784.903 -2415.68  -1492.97 -2054.9
+            -2054.9 -1492.97  -2415.68 -784.903  -2540 0  -2415.68 784.903
+            -2054.9 1492.97  -1492.97 2054.9  -784.903 2415.68  0 2540  784.903 2415.68
+            1492.97 2054.9  2054.9 1492.97  2415.68 784.903))
+      (outline (path signal 304.8  2540 635  1905 635))
+      (outline (path signal 304.8  1905 635  1905 -635))
+      (outline (path signal 304.8  1905 -635  2540 -635))
+      (pin Rect[A]Pad_1397x1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image "connect:SIL-3"
+      (outline (path signal 304.8  -3810 -1270  -3810 1270))
+      (outline (path signal 304.8  -3810 1270  3810 1270))
+      (outline (path signal 304.8  3810 1270  3810 -1270))
+      (outline (path signal 304.8  3810 -1270  -3810 -1270))
+      (outline (path signal 304.8  -1270 1270  -1270 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 0 0)
+      (pin Round[A]Pad_1397_um 3 2540 0)
+    )
+    (image pin_array:PIN_ARRAY_4x1
+      (outline (path signal 254  5080 -1270  -5080 -1270))
+      (outline (path signal 254  5080 1270  -5080 1270))
+      (outline (path signal 254  -5080 1270  -5080 -1270))
+      (outline (path signal 254  5080 -1270  5080 1270))
+      (pin Rect[A]Pad_1524x1524_um 1 -3810 0)
+      (pin Round[A]Pad_1524_um 2 -1270 0)
+      (pin Round[A]Pad_1524_um 3 1270 0)
+      (pin Round[A]Pad_1524_um 4 3810 0)
+    )
+    (image discret:R1
+      (outline (path signal 381  -1270 0  1270 0))
+      (outline (path signal 381  149.903 0  80.408 -438.774  -121.274 -834.598  -435.402 -1148.73
+            -831.226 -1350.41  -1270 -1419.9  -1708.77 -1350.41  -2104.6 -1148.73
+            -2418.73 -834.598  -2620.41 -438.774  -2689.9 0  -2620.41 438.774
+            -2418.73 834.598  -2104.6 1148.73  -1708.77 1350.41  -1270 1419.9
+            -831.226 1350.41  -435.402 1148.73  -121.274 834.598  80.408 438.774))
+      (pin Round[A]Pad_1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image "dip_sockets:DIP-8__300"
+      (outline (path signal 254  -5080 1270  -3810 1270))
+      (outline (path signal 254  -3810 1270  -3810 -1270))
+      (outline (path signal 254  -3810 -1270  -5080 -1270))
+      (outline (path signal 254  -5080 2540  5080 2540))
+      (outline (path signal 254  5080 2540  5080 -2540))
+      (outline (path signal 254  5080 -2540  -5080 -2540))
+      (outline (path signal 254  -5080 -2540  -5080 2540))
+      (pin Rect[A]Pad_1397x1397_um 1 -3810 -3810)
+      (pin Round[A]Pad_1397_um 2 -1270 -3810)
+      (pin Round[A]Pad_1397_um 3 1270 -3810)
+      (pin Round[A]Pad_1397_um 4 3810 -3810)
+      (pin Round[A]Pad_1397_um 5 3810 3810)
+      (pin Round[A]Pad_1397_um 6 1270 3810)
+      (pin Round[A]Pad_1397_um 7 -1270 3810)
+      (pin Round[A]Pad_1397_um 8 -3810 3810)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net /INPUT
+      (pins R1-1 U1-6)
+    )
+    (net /INPUTtoR
+      (pins J1-2 R1-2)
+    )
+    (net /a1
+      (pins P1-1 P2-1 P3-1 P4-1)
+    )
+    (net /a2
+      (pins P1-2 P2-2 P3-2 P4-2)
+    )
+    (net /a3
+      (pins P1-3 P2-3 P3-3 P4-3)
+    )
+    (net /a4
+      (pins P1-4 P2-4 P3-4 P4-4)
+    )
+    (net /uCtoLED
+      (pins D1-2 U1-7)
+    )
+    (net GND
+      (pins J1-3 U1-8 Ua1-7)
+    )
+    (net "Net-(D1-Pad1)"
+      (pins D1-1 R2-2)
+    )
+    (net "Net-(U1-Pad2)"
+      (pins U1-2)
+    )
+    (net "Net-(U1-Pad3)"
+      (pins U1-3)
+    )
+    (net "Net-(U1-Pad4)"
+      (pins U1-4)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
+    (net "Net-(Ua1-Pad1)"
+      (pins Ua1-1)
+    )
+    (net "Net-(Ua1-Pad2)"
+      (pins Ua1-2)
+    )
+    (net "Net-(Ua1-Pad3)"
+      (pins Ua1-3 Ua1-4)
+    )
+    (net "Net-(Ua1-Pad5)"
+      (pins Ua1-5)
+    )
+    (net "Net-(Ua1-Pad6)"
+      (pins Ua1-6)
+    )
+    (net VCC
+      (pins J1-1 R2-1 U1-1)
+    )
+    (class kicad_default "" /INPUT /INPUTtoR /a1 /a2 /a3 /a4 /uCtoLED GND
+      "Net-(D1-Pad1)" "Net-(U1-Pad2)" "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad5)"
+      "Net-(Ua1-Pad1)" "Net-(Ua1-Pad2)" "Net-(Ua1-Pad3)" "Net-(Ua1-Pad5)"
+      "Net-(Ua1-Pad6)" VCC
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 254  144780 -100330  148590 -100330)(net /INPUT)(type protect))
+    (wire (path F.Cu 254  154940 -93980  154940 -91440)(net /INPUT)(type protect))
+    (wire (path F.Cu 254  148590 -100330  154940 -93980)(net /INPUT)(type protect))
+    (wire (path F.Cu 254  138430 -85090  138430 -86360)(net /INPUTtoR)(type protect))
+    (wire (path F.Cu 254  140970 -88900  154940 -88900)(net /INPUTtoR)(type protect))
+    (wire (path F.Cu 254  138430 -86360  140970 -88900)(net /INPUTtoR)(type protect))
+    (wire (path F.Cu 254  129540 -127000  129540 -134620)(net /a1)(type protect))
+    (wire (path F.Cu 254  129540 -119380  129540 -127000)(net /a1)(type protect))
+    (wire (path F.Cu 254  129540 -111760  129540 -119380)(net /a1)(type protect))
+    (wire (path F.Cu 254  132080 -119380  132080 -111760)(net /a2)(type protect))
+    (wire (path F.Cu 254  132080 -127000  132080 -119380)(net /a2)(type protect))
+    (wire (path F.Cu 254  132080 -134620  132080 -127000)(net /a2)(type protect))
+    (wire (path F.Cu 254  134620 -127000  134620 -134620)(net /a3)(type protect))
+    (wire (path F.Cu 254  134620 -119380  134620 -127000)(net /a3)(type protect))
+    (wire (path F.Cu 254  134620 -111760  134620 -119380)(net /a3)(type protect))
+    (wire (path F.Cu 254  137160 -119380  137160 -111760)(net /a4)(type protect))
+    (wire (path F.Cu 254  137160 -127000  137160 -119380)(net /a4)(type protect))
+    (wire (path F.Cu 254  137160 -134620  137160 -127000)(net /a4)(type protect))
+    (wire (path F.Cu 254  144780 -97790  142875 -97790)(net /uCtoLED)(type protect))
+    (wire (path F.Cu 254  143510 -105410  155575 -105410)(net /uCtoLED)(type protect))
+    (wire (path F.Cu 254  142875 -104775  143510 -105410)(net /uCtoLED)(type protect))
+    (wire (path F.Cu 254  142875 -97790  142875 -104775)(net /uCtoLED)(type protect))
+    (wire (path B.Cu 254  140970 -85090  145415 -89535)(net GND)(type protect))
+    (wire (path B.Cu 254  145415 -94615  144780 -95250)(net GND)(type protect))
+    (wire (path B.Cu 254  145415 -89535  145415 -94615)(net GND)(type protect))
+    (wire (path F.Cu 254  155575 -107950  137160 -107950)(net "Net-(D1-Pad1)")(type protect))
+    (wire (path F.Cu 254  132715 -98425  132715 -107950  137160 -107950)(net "Net-(D1-Pad1)")(type protect))
+    (wire (path F.Cu 254  132715 -98425  125730 -92710)(net "Net-(D1-Pad1)")(type protect))
+    (wire (path F.Cu 254  135890 -85090  135890 -93980  137160 -95250)(net VCC)(type protect))
+    (wire (path F.Cu 254  135890 -85090  130810 -85090  125730 -90170)(net VCC)(type protect))
+  )
+)

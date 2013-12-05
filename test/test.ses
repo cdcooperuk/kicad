@@ -1,0 +1,201 @@
+
+(session test.ses
+  (base_design test.dsn)
+  (placement
+    (resolution um 10)
+    (component discret:LEDV
+      (place D1 1257300 -1016000 front 0)
+    )
+    (component "connect:SIL-3"
+      (place J1 1384300 -850900 front 0)
+    )
+    (component pin_array:PIN_ARRAY_4x1
+      (place P1 1333500 -1117600 front 0)
+      (place P2 1333500 -1193800 front 0)
+      (place P3 1333500 -1270000 front 0)
+      (place P4 1333500 -1346200 front 0)
+    )
+    (component discret:R1
+      (place R1 1549400 -901700 front 90)
+      (place R2 1257300 -914400 front 270)
+    )
+    (component "dip_sockets:DIP-8__300"
+      (place U1 1409700 -990600 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2013-11-06 BZR 4440)-product")
+    )
+    (library_out 
+      (padstack "Via[0-1]_889:635_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /INPUT
+        (wire
+          (path B.Cu 2540
+            1447800 -1003300
+            1460500 -1003300
+            1549400 -914400
+          )
+        )
+      )
+      (net /INPUTtoR
+        (wire
+          (path B.Cu 2540
+            1549400 -889000
+            1422400 -889000
+            1384300 -850900
+          )
+        )
+      )
+      (net /a1
+        (wire
+          (path F.Cu 2540
+            1295400 -1193800
+            1295400 -1117600
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1295400 -1270000
+            1295400 -1193800
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1295400 -1346200
+            1295400 -1270000
+          )
+        )
+      )
+      (net /a2
+        (wire
+          (path F.Cu 2540
+            1320800 -1193800
+            1320800 -1117600
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1320800 -1270000
+            1320800 -1193800
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1320800 -1346200
+            1320800 -1270000
+          )
+        )
+      )
+      (net /a3
+        (wire
+          (path F.Cu 2540
+            1346200 -1193800
+            1346200 -1117600
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1346200 -1270000
+            1346200 -1193800
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1346200 -1346200
+            1346200 -1270000
+          )
+        )
+      )
+      (net /a4
+        (wire
+          (path F.Cu 2540
+            1371600 -1193800
+            1371600 -1117600
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1371600 -1270000
+            1371600 -1193800
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1371600 -1346200
+            1371600 -1270000
+          )
+        )
+      )
+      (net /uCtoLED
+        (wire
+          (path B.Cu 2540
+            1447800 -977900
+            1409700 -1016000
+            1270000 -1016000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2540
+            1447800 -952500
+            1409700 -914400
+            1409700 -850900
+          )
+        )
+      )
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path F.Cu 2540
+            1257300 -927100
+            1244600 -939800
+            1244600 -1016000
+          )
+        )
+      )
+      (net VCC
+        (wire
+          (path F.Cu 2540
+            1358900 -856299
+            1302701 -856299
+            1257300 -901700
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1358900 -856299
+            1358900 -861698
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1358900 -850900
+            1358900 -856299
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            1371600 -952500
+            1371600 -874398
+            1358900 -861698
+          )
+        )
+      )
+    )
+  )
+)

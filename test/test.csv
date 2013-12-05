@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"G***";"LOGO";1;"LOGO";;;
+2;"D1";"discret:LEDV";1;"LED";;;
+3;"J1";"connect:SIL-3";1;"MYCONN3";;;
+4;"P1";"pin_array:PIN_ARRAY_4x1";1;"CONN_1";;;
+5;"P2";"pin_array:PIN_ARRAY_4x1";1;"CONN_2";;;
+6;"P3";"pin_array:PIN_ARRAY_4x1";1;"CONN_3";;;
+7;"P4";"pin_array:PIN_ARRAY_4x1";1;"CONN_4";;;
+8;"R1";"discret:R1";1;"100";;;
+9;"R2";"discret:R1";1;"1k";;;
+10;"U1";"dip_sockets:DIP-8__300";1;"PIC12C508A";;;
+11;"cdc_nrf24l01p";"cdc:cdc_nrf24l01p";1;"VAL**";;;

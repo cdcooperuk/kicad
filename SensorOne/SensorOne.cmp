@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-11-14 BZR 4468)-product date = Tue 19 Nov 2013 14:37:37 GMT
+
+BeginCmp
+TimeStamp = /52861561;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = cdc:CR2032H;
+EndCmp
+
+BeginCmp
+TimeStamp = /528A62BC;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitors:CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52860F2D;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52860F41;
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5288D55A;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52860EE1;
+Reference = IC1;
+ValeurCmp = ATMEGA328-P;
+IdModule  = DIP_Sockets:DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /52861644;
+Reference = J1;
+ValeurCmp = sens_wbrk;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52861658;
+Reference = J2;
+ValeurCmp = sens_pir;
+IdModule  = Connect:bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52861630;
+Reference = J3;
+ValeurCmp = sens_ctct;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /528B36F0;
+Reference = MH1;
+ValeurCmp = MOUNTING_HOLE_PLACEHOLDER;
+IdModule  = MountingHole_RevA:MountingHole_3mm_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /528B3712;
+Reference = MH2;
+ValeurCmp = MOUNTING_HOLE_PLACEHOLDER;
+IdModule  = MountingHole_RevA:MountingHole_3mm_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5286112E;
+Reference = N1;
+ValeurCmp = NRF24L01+;
+IdModule  = cdc:cdc_nrf24l01p;
+EndCmp
+
+BeginCmp
+TimeStamp = /528616B4;
+Reference = P1;
+ValeurCmp = icsp;
+IdModule  = pin_array:pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /528615E3;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52863BB7;
+Reference = SW2;
+ValeurCmp = on-switch;
+IdModule  = cdc:MINSLIDE_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /528639E6;
+Reference = TP1;
+ValeurCmp = V test;
+IdModule  = pin_array:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /528612BE;
+Reference = TP2;
+ValeurCmp = I test;
+IdModule  = pin_array:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52860F05;
+Reference = Y1;
+ValeurCmp = 8MHz;
+IdModule  = Crystals:Crystal_HC49-U_Vertical_RevA_09Aug2010;
+EndCmp
+
+EndListe
